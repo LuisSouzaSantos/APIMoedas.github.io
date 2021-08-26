@@ -1,0 +1,46 @@
+:root{
+    --main-black-grey: #54565B;
+    --main-white-grey: #939598;
+    --main-white: #FAF8EB;
+    --main-yellow: #FAD41B;
+}
+
+header{
+    text-align: center;
+}
+
+.global{
+    background-color: var(--main-white);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+#globalCurrencyInformation{
+    position: relative;
+    top: 30px;
+}
+
+#globalCurrencyGraphicInformation{
+    height: 100%;
+    position: relative;
+    top: 100px;
+}
+
+#currencyTemplate-2{
+    width: 100% !important;
+    height: 300px !important;
+}
+
+.currencyDetail{
+    border: 2px solid var(--main-black-grey);
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    padding: 15px;
+}

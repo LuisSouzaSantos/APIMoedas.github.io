@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+    <title>Global Currencies</title>
+</head>
+<body class="global">
+    <header><h1>API Moedas</h1></header>
+    <main class="container">
+        <div id="globalCurrencyInformation">
+
+        </div>
+        <div id="globalCurrencyGraphicInformation">
+
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="./Model/Currency.js"></script>
+    <!-- <script src="./View/Currency.js"></script> -->
+    <script type="module" src="./View/CurrencyDetails.js"></script>
+    <script type="module" src="./View/CurrencyContainer.js"></script>
+    <script type="module" src="./View/CurrencyDetailsGraphic.js"></script>
+    <script type="module" src="./Helper/ApiService.js"></script>
+    <script type="module" src="./Controller/CurrencyController.js"></script>
+    <script type="module">
+        import { CurrencyController } from './Controller/CurrencyController.js';
+
+        let currencyController = new CurrencyController();
+    </script>
+    
+    
+    </script>
+</body>
+
+</html>
